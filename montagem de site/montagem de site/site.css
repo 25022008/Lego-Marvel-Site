@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {}
+
+/*header*/
+
+header {}
+
+.barrainicial {
+    background-color: #F8BF2A;
+    height: 10px;
+}
+
+.imagem img {
+    display: flex;
+}
+
+.cabecalho {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+}
+
+.cabecalho a {
+
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+/* conteudo*/
+
+main {}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container figure {
+    margin: 20px;
+    width: 743px;
+    height: 541px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    height: 500px;
+    width: 1000px;
+}
+
+.container h2 {
+    margin: 20px;
+    text-align: right;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
+.container1 figure {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container1 img {
+    height: 300px;
+    width: 300px;
+}
+
+.container1 h2 {
+    margin: 20px;
+    text-align: left;
+    max-width: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px;
+    justify-content: space-around;
+
+}
+
+.imagem2 {
+
+    width: 500px;
+    height: 700px;
+}
+
+figure {
+    text-align: center;
+}
+
+.botão {
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    background-color: #B41721;
+}
+/* formulario */
+.formula h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+ 
+.formula p {
+    text-align: center;
+    padding-top: 30px;
+}
+ 
+.formulario {
+    width: 550px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid black 1px;
+    margin-left: 50px;
+    background-color: aquamarine;
+}
+ 
+.formulario1 {
+    width: 550px;
+    height: 280px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid black 1px;
+    margin-right: 50px;
+    background-color: aquamarine;
+}
+ 
+.forma {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+ 
+.forma1 {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.enviar {
+    text-align: center;
+    padding: 20px;
+}
+ 
+input {
+   
+    width: 500px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid black 1px;
+    margin-left: 50px;
+    background-color: aquamarine;
+}
+ 
+/* formulario */
+ 
+.home{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 4px;
+    list-style-type: none;
+}
+.produtos{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 4px;
+    list-style-type: none;
+}
+.contatos{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 4px;
+    list-style-type: none;
+}
+/*footer*/
+footer {
+
+    color: white;
+    background-image: linear-gradient(126deg, #B41721 33.16%, #E61C28 69.05%);
+}
+
+blockquote {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+
+blockquote a {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 430px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.box4 {
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #F8BF2A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.barrafinal {
+    background-color: #F8BF2A;
+    height: 25px;
+}
